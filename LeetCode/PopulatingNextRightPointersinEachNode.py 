@@ -1,0 +1,39 @@
+#!/usr/bin/python
+# Definition for a  binary tree node
+class TreeNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
+        self.next = None
+
+class Preorder(object): 
+    # @param root, a tree node
+    # @return nothing
+    def connect2(self,right,root):
+
+
+    def connect(self, root):
+        if(root == None):
+            return None
+        root.next=None
+        if(root.left != None and root.right != None):
+            root.left.next=root.right
+
+            self.connect2(root.left,root)
+            self.connect(root.right)
+
+
+def test(got, expected):
+    if got == expected:
+        prefix = ' OK '
+    else:
+        prefix = '  X '
+    print '%s got: %s expected: %s' % (prefix, repr(got), repr(expected))
+
+def main():
+    ins=Preorder()
+
+
+if __name__ == '__main__':
+    main()
