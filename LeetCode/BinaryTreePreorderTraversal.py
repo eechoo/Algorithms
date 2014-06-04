@@ -6,18 +6,18 @@ class TreeNode:
         self.left = None
         self.right = None
 
-class Inorder(object): 
+class Preorder(object): 
     # @param root, a tree node
     # @return a list of integers
-    def inorderTraversal(self, root):
+    def preorderTraversal(self, root):
         if(root == None):
             return []
         array=[]
-        if(root.left != None):
-            array=self.inorderTraversal(root.left)
         array.append(root.val)
+        if(root.left != None):
+            array+=self.preorderTraversal(root.left)
         if(root.right != None):
-            array+=self.inorderTraversal(root.right)
+            array+=self.preorderTraversal(root.right)
         return array
 
 def test(got, expected):
