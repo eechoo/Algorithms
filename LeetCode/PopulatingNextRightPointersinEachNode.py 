@@ -10,18 +10,15 @@ class TreeNode:
 class Preorder(object): 
     # @param root, a tree node
     # @return nothing
-    def connect2(self,right,root):
-
-
     def connect(self, root):
         if(root == None):
             return None
-        root.next=None
         if(root.left != None and root.right != None):
             root.left.next=root.right
-
-            self.connect2(root.left,root)
+            if(root.next != None):
+                root.right.next=root.next.left
             self.connect(root.right)
+            self.connect(root.left)
 
 
 def test(got, expected):
