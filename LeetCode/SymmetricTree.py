@@ -7,17 +7,34 @@ class TreeNode:
         self.right = None
 
 class Solution:
-    def isMirror(self,)
-
     # @param root, a tree node
     # @return a boolean
+    def ismirror(self,left,right):
+        if(left.val != right.val):
+            return False
+        mirror1=False
+        mirror2=False
+        if(left.right != None and right.left != None):
+            mirror1=self.ismirror(left.right,right.left)
+        elif(left.right == None and right.left == None):
+            mirror1=True
+        if(left.left!= None and right.right != None):
+            mirror2=self.ismirror(left.left,right.right)
+        elif(left.left == None and right.right  == None):
+            mirror2=True
+        if(mirror1 == True and mirror2 == True):
+            return True
+        return False
+
     def isSymmetric(self, root):
         if(root == None):
-            return False
+            return True
         if(root.left == None and root.right == None):
             return True
-        if(root.left != None and root.right != None):
-            return self.isMirror(root.left,root.right)
+        elif(root.left != None and root.right != None):
+            return self.ismirror(root.left,root.right)
+        else:
+            return False
             
 def test(got, expected):
     if got == expected:
