@@ -1,0 +1,35 @@
+class Solution {
+public:
+    vector<int> searchRange(int A[], int n, int target) {
+        int left=0,right=n,pos=right/2;
+        
+        while(A[pos]!=target&&pos!=left&&pos!=right)
+        {
+            if(A[pos]>target)
+            {
+                right=pos;
+                pos=right/2;
+            }
+            else
+            {
+                left=pos;
+                pos=left+(right-left)/2;
+            }
+        }
+        
+        if(A[pos]!=target)
+            return vector<int>(2,-1);
+        else
+        {
+            left=pos;
+            while(A[pos]==A[left--]);
+            right=pos;
+            while(A[pos]==A[right++]);
+            vector<int> ret;
+            
+            ret.push_back(left);
+            ret.push_back(right);
+            return ret;
+        }
+    }
+};

@@ -6,7 +6,12 @@ class Remove(object):
     def removeElement(self, A, elem):
         if(A == []):
             return 0
-        A=[i for i in A if (i != elem)]
+        num=0
+        for i in A:
+            if(i == elem):
+                num+=1
+        for i in range(num):
+            A.remove(elem)
         print A
         return len(A)
 
