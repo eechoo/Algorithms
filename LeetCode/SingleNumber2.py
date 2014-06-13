@@ -1,11 +1,14 @@
 #!/usr/bin/python
-#Follow up for N-Queens problem.
+#Given an array of integers, every element appears three times except for one. Find that single one.
 
-#Now, instead outputting board configurations, return the total number of distinct solutions.
+# Note:
+#Your algorithm should have a linear runtime complexity. Could you implement it without using extra memory?
 
 class Solution:
+    # @param A, a list of integer
     # @return an integer
-    def totalNQueens(self, n):
+    def singleNumber(self, A):
+        
 
 
 def test(got, expected):
@@ -24,4 +27,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-    	
