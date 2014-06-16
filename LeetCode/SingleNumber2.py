@@ -8,8 +8,16 @@ class Solution:
     # @param A, a list of integer
     # @return an integer
     def singleNumber(self, A):
-        
-
+    	one=0
+    	two=0
+    	three=0
+    	for i in A:
+    		two |=(i & one)
+    		one ^=i
+    		three=~(two & one)
+    		two &=three
+    		one &=three
+    	return one
 
 def test(got, expected):
     if got == expected:
@@ -20,9 +28,8 @@ def test(got, expected):
 
 def main():
     ins=Solution()
-    test(ins.generateParenthesis(1),['()'])
-    test(ins.generateParenthesis(2),['(())','()()'])
-    test(ins.generateParenthesis(3),['((()))','(()())','(())()','()(())','()()()'])
+    test(ins.singleNumber([5,6,5,6,7,5,6]),7)
+
 
 
 if __name__ == '__main__':
