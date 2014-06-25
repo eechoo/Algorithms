@@ -6,6 +6,7 @@
 #Follow up:
 #Could you do this in-place?
 
+#一次旋转一个点，转一圈，涉及到4个点，仅需循环1/4矩阵
 class Solution:
     # @param matrix, a list of lists of integers
     # @return a list of lists of integers
@@ -13,13 +14,15 @@ class Solution:
     	if(matrix == None):
     		return []
     	n=len(matrix)
-    	for i in range(n):
-    		hang=matrix[i]
-    		for j in range(n):
-    			matrix[i][j]=matrix[j][n-1-i]
-
-
-
+    	for i in range(n/2):
+    		for j in range(i,n-i-1):
+    			tmp=matrix[i][j]
+    			matrix[i][j]=matrix[n-j-1][i]
+    			matrix[n-j-1][i]=matrix[n-i-1][n-j-1]
+    			matrix[n-i-1][n-j-1]=matrix[j][n-i-1]
+    			matrix[j][n-i-1]=tmp
+    	return matrix	
+    	
 
 def test(got, expected):
     if got == expected:
@@ -30,9 +33,9 @@ def test(got, expected):
 
 def main():
     ins=Solution()
-    test(ins.generateParenthesis(1),['()'])
-    test(ins.generateParenthesis(2),['(())','()()'])
-    test(ins.generateParenthesis(3),['((()))','(()())','(())()','()(())','()()()'])
+    test(ins.rotate([[0]]),[[0]])
+    test(ins.rotate([[1,2],[3,4]]),[[3,1],[4,2]])
+
 
 
 if __name__ == '__main__':
