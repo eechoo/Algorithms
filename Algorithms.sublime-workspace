@@ -1,0 +1,472 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"s",
+				"search"
+			],
+			[
+				"searc",
+				"searchMatrix"
+			],
+			[
+				"re",
+				"RETURN"
+			],
+			[
+				"m",
+				"matrix"
+			],
+			[
+				"l",
+				"levelOrder"
+			],
+			[
+				"p",
+				"plusOne"
+			],
+			[
+				"d",
+				"digits"
+			],
+			[
+				"uni",
+				"uniquePaths"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"u",
+				"uniquePaths"
+			],
+			[
+				"c",
+				"curbenifit"
+			],
+			[
+				"price",
+				"prices"
+			],
+			[
+				"n",
+				"node11"
+			],
+			[
+				"no",
+				"node11"
+			],
+			[
+				"ge",
+				"generate"
+			],
+			[
+				"S",
+				"StringA"
+			],
+			[
+				"string",
+				"StringA"
+			],
+			[
+				"so",
+				"sortColors"
+			],
+			[
+				"g",
+				"grayCode"
+			],
+			[
+				"B",
+				"bin"
+			],
+			[
+				"mirro",
+				"mirror2"
+			],
+			[
+				"cl",
+				"climbStairs"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "LeetCode/N-Queens2.py",
+			"settings":
+			{
+				"buffer_size": 660,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "LeetCode/BestTimetoBuyandSellStock3.py",
+			"settings":
+			{
+				"buffer_size": 803,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "LeetCode/Permutations2.py",
+			"settings":
+			{
+				"buffer_size": 1044,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "#!/usr/bin/python\n#Suppose a sorted array is rotated at some pivot unknown to you beforehand.\n\n#(i.e., 0 1 2 4 5 6 7 might become 4 5 6 7 0 1 2).\n\n#You are given a target value to search. If found in the array return its index, otherwise return -1.\n\n#You may assume no duplicate exists in the array.\n\nclass Solution:\n    # @param A, a list of integers\n    # @param target, an integer to be searched\n    # @return an integer\n    def search(self, A, target):\n        if(A == []):\n            return -1\n        left=0\n        right=len(A)-1\n        while(left < right):\n            mid=(right-left)/2+left\n            if(target == A[mid]):\n                return mid\n            if(A[left] < A[mid]):\n                if(A[left] < A[mid])\n            else:\n\n\ndef test(got, expected):\n    if got == expected:\n        prefix = ' OK '\n    else:\n        prefix = '  X '\n    print '%s got: %s expected: %s' % (prefix, repr(got), repr(expected))\n\ndef main():\n    ins=Solution()\n    test(ins.search([2,3,1],1),2)\n    test(ins.search([4,5,6,7,0,1,2],3),-1)\n    test(ins.search([4,5,6,7,0,1,2],5),1)\n\n\nif __name__ == '__main__':\n    main()",
+			"file": "LeetCode/SearchinRotatedSortedArray.py",
+			"file_size": 922,
+			"file_write_time": 130481591450000000,
+			"settings":
+			{
+				"buffer_size": 1126,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"python",
+				"Set Syntax: Regular Expressions (Python)"
+			],
+			[
+				"",
+				"About"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/echo/Documents/Algorithms/LeetCode/Container With Most Water.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/Searcha2DMatrix.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/SetMatrixZeroes.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/BinaryTreeLevelOrderTraversal.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/BinaryTreeLevelOrderTraversal2.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/BinaryTreePostorderTraversal.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/PlusOne.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/UniquePaths.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/RotateImage.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/Permutations.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/SingleNumber2.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/BestTimetoBuyandSellStock2.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/BestTimetoBuyandSellStock.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/SymmetricTree.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/GenerateParentheses.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/GrayCode.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/SortColors.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/Pascal'sTriangle.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/MergeSortedArray.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/RemoveDuplicatesfromSortedArray.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/N-Queens2.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/RemoveElement.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/SwapNodesinPairs.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/range",
+		"/Users/echo/Documents/Algorithms/LeetCode/ConvertSortedArraytoBinarySearchTree.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/PopulatingNextRightPointersinEachNode.py ",
+		"/Users/echo/Documents/Algorithms/LeetCode/ClimbingStairs.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/BinaryTreePreorderTraversal.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/RemoveDuplicatesFromSortedList.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/UniqueBinarySearchTreesLib.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/UniqueBinarySearchTrees.py",
+		"/Users/echo/Documents/Algorithms/README.md",
+		"/Users/echo/Documents/Algorithms/LeetCode/SearchInsertPosition.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/BinaryTreeInorderTraversal.py ",
+		"/Users/echo/Documents/Algorithms/Readme.md",
+		"/Users/echo/Documents/python/SearchInsertPosition",
+		"/Users/echo/Documents/python/UniqueBinarySearchTreesLib.py",
+		"/Users/echo/Documents/python/UniqueBinarySearchTrees.py",
+		"/Users/echo/Documents/python/Unique-Binary-Search-Trees-lib.py",
+		"/Users/echo/Documents/python/Unique-Binary-Search-Trees.py",
+		"/Volumes/C/Users/echo/Downloads/mymodule_demo.py",
+		"/Users/echo/Documents/python/class Solution:",
+		"/Users/echo/Library/Caches/TemporaryItems/Outlook Temp/hadoop-site-nj01-yulong[1].xml",
+		"/Library/Preferences/Parallels/licenses.xml",
+		"/Volumes/Untitled/Mac/SecureCRT 7.1.3/securecrt_linux_crack.pl"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"generateParenthesis",
+			"Write",
+			"generateParenthesis",
+			"click",
+			"levelOrderBottom",
+			"# ",
+			"generateParenthesis",
+			"got",
+			"generateParenthesis",
+			"maxProfit",
+			"generateParenthesis",
+			"grayCode",
+			"\n#",
+			"[1,3,5,6], 5",
+			"searchInsert",
+			"numTrees",
+			"ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAIEAux6Z6AE/xKbSbjDiV0WGP97rNgDT5Q7fDyFn5I6bQjiOofn/pWlIELXGzN0q6XYv2v2vYcd5F6Js3O/Bei5fakoGJshfVFkMniZnejfoXbZBxzh2TklJRNKno"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "LeetCode/N-Queens2.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 660,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								654,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "LeetCode/BestTimetoBuyandSellStock3.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 803,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								107,
+								107
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "LeetCode/Permutations2.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1044,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								17,
+								1
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "LeetCode/SearchinRotatedSortedArray.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1126,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								734,
+								734
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 221.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "Algorithms.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"README.md"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 135.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
