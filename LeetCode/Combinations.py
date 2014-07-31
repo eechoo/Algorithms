@@ -1,6 +1,6 @@
 #!/usr/bin/python
 #Given two integers n and k, return all possible combinations of k numbers out of 1 ... n.
-
+#DFS
 class Solution:
     def combine2(self,n,k,level,solu,result):
         if(level == k):
