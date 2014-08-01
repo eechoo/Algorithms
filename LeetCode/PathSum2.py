@@ -21,23 +21,30 @@ return
 
 # Definition for a  binary tree node
 class TreeNode:
-    def __init__(self, x):
-        self.val = x
-        self.left = None
-        self.right = None
+  def __init__(self, x):
+    self.val = x
+    self.left = None
+    self.right = None
 
-class Solution:
-	def pathSum1(self,root,sum,result):
-
+  def pathSum1(self,node,sum,path,result):
+    path.append(node.val)
+    if(node.left == None and node.right==None and sum == node.val):
+      result.append(path[:])
+    if(node.left != None):
+      self.pathSum1(node.left,sum-node.val,path,result)
+    if(node.right != None):
+      self.pathSum1(node.right,sum-node.val,path,result)
+    path.pop()
 
     # @param root, a tree node
     # @param sum, an integer
     # @return a list of lists of integers
-    def pathSum(self, root, sum):
-    	result=[]
-    	if(root==None):
-            return result
-        return self.pathSum1(root,sum,result)
+  def pathSum(self, root, sum):
+    path=[]
+    result=[]
+    if(root != None):
+      self.pathSum1(root,sum,path,result)
+    return result
 
 def test(got, expected):
     if got == expected:
@@ -47,11 +54,12 @@ def test(got, expected):
     print '%s got: %s expected: %s' % (prefix, repr(got), repr(expected))
 
 def main():
-    ins=Solution()
-    test(ins.generateParenthesis(1),['()'])
-    test(ins.generateParenthesis(2),['(())','()()'])
-    test(ins.generateParenthesis(3),['((()))','(()())','(())()','()(())','()()()'])
-
+    root=TreeNode(5)
+    left=TreeNode(4)
+    right=TreeNode(8)
+    root.left=left
+    root.right=right
+    test(root.pathSum(root,13),[])
 
 if __name__ == '__main__':
     main()
