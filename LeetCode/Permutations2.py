@@ -1,45 +1,45 @@
 #!/usr/bin/python
-#Given a collection of numbers that might contain duplicates, return all possible unique permutations.
+'''
+Given a collection of numbers that might contain duplicates, return all possible unique permutations.
 
-#For example,
-#[1,1,2] have the following unique permutations:
-#[1,1,2], [1,2,1], and [2,1,1].
+For example,
+[1,1,2] have the following unique permutations:
+[1,1,2], [1,2,1], and [2,1,1].
+'''
 
 class Solution:
-	def swap(self,a,b):
-		tmp=a
-		a=b
-		b=tmp
+	# @param num, a list of integer
+	# @return a list of lists of integers
 
-	#@param num,alist of int
-	#@param n ,int
-	#@param A , a List of List of int 
-	def permute1(self,num,n,A):
-		if(n == len(num)):
-			A.append(num)
-		for i in range(n,len(num)):
-			if(num[i] != num[n] ):
-				self.swap(num[i],num[n])
-				A=self.permute1(num,n+1,A)
-				self.swap(num[i],num[n])
+	#@param pre num,alist of int,num
+	def permute1(self,pre,num,A):
+		if(len(num) == 0):
+			A.append(pre)
+		else:
+			for i in range(len(num)):
+				if(i>0 and num[i] == num[i-1]):
+					continue
+				A=self.permute1(pre+[num[i]],num[:i]+num[i+1:],A)
 		return A
 
-    # @param num, a list of integer
-    # @return a list of lists of integers
-	def permute(self, num):
-		result = self.permute1(num,0,[])
+	# @param num, a list of integer
+	# @return a list of lists of integers
+	def permuteUnique(self, num):
+		num.sort()
+		result = self.permute1([],num,[])
 		return result
+	
 
 def test(got, expected):
     if got == expected:
-        prefix = ' OK '
+		prefix = ' OK '
     else:
         prefix = '  X '
     print '%s got: %s expected: %s' % (prefix, repr(got), repr(expected))
 
 def main():
     ins=Solution()
-    test(ins.permute([1,1,2]),[[1,1,2],[1,2,1],[2,1,1]])
+    test(ins.permuteUnique([1,1,2]),'')
 
 
 if __name__ == '__main__':

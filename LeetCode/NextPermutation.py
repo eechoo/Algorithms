@@ -17,20 +17,20 @@ class Solution:
     def nextPermutation(self, num):
         if(num == [] or len(num)==1):
         	return num
-        flag=False
-        for i in range(len(num)-1):
-        	if(num[i] < num[i+1]):
-        		flag=True
-        		first=i
-        		second=i+1
-        	if(flag == True and num[i+1]-num[first]<num[second]-num[first]):
-        		second=i+1
-        if(flag == True):
-        	tmp=num[first]
-        	num[first]=num[second]
-        	num[second]=tmp
-        else:
-        	num.reverse()
+        for j in range(len(num)-1,0,-1):
+        	if(num[j] > num[j-1]):
+        		for i in range(len(num)-1,j-1,-1):
+        			if(num[i] > num[j-1] ):
+        				break
+        		tmp=num[j-1]
+        		num[j-1]=num[i]
+        		num[i]=tmp
+        		if(j<len(num)-1):
+        			bak=num[j:]
+        			bak.reverse()
+        			num=num[:j]+bak
+        		return num
+        num.reverse()	
         return num
 
 
@@ -43,9 +43,9 @@ def test(got, expected):
 
 def main():
     ins=Solution()
-    test(ins.nextPermutation([1,2,3]),['()'])
-    test(ins.nextPermutation([3,2,1]),['()'])
-    test(ins.nextPermutation([1,1,5]),['()'])
+    test(ins.nextPermutation([1,2,3]),[1,3,2])
+    test(ins.nextPermutation([3,2,1]),[1,2,3])
+    test(ins.nextPermutation([1,3,2]),[2,1,3])
 
 
 if __name__ == '__main__':
