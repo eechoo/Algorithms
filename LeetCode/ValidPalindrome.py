@@ -16,7 +16,23 @@ class Solution:
     # @param s, a string
     # @return a boolean
     def isPalindrome(self, s):
-        
+        if(s == ''):
+        	return True
+        i=0
+        j=len(s)-1
+        while(i<j):
+        	if(s[i].isalnum()):
+        		if(s[j].isalnum()):
+        			if( s[i].upper()== s[j].upper()):
+        				i+=1
+        				j-=1
+        			else:
+        				return False
+        		else:
+        			j-=1
+        	else:
+        		i+=1
+        return True
 
 def test(got, expected):
     if got == expected:
@@ -27,9 +43,8 @@ def test(got, expected):
 
 def main():
     ins=Solution()
-    test(ins.maxProfit([1,2,3]),2)
-    test(ins.maxProfit([3,2,1]),0)
-    test(ins.maxProfit([1,4,2]),3)
+    test(ins.isPalindrome("A man, a plan, a canal: Panama"),True)
+    test(ins.isPalindrome("race a car"),False)
 
 
 if __name__ == '__main__':

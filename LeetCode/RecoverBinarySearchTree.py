@@ -14,9 +14,14 @@ class TreeNode:
         self.left = None
         self.right = None
 
+    def recoverTree1(self,root,pre):
+
     # @param root, a tree node
     # @return a tree node
     def recoverTree(self, root):
+    	if(root==None ):
+    		return root
+    	
 
 
 def test(got, expected):
