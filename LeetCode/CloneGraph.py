@@ -20,32 +20,46 @@ Visually, the graph looks like the following:
       / \
      /   \
     0 --- 2
-         / \
+	/ \
          \_/
 '''
 # Definition for a undirected graph node
 class UndirectedGraphNode:
-    def __init__(self, x):
-        self.label = x
-        self.neighbors = []
+	def __init__(self, x):
+		self.label = x
+		self.neighbors = []
+	
+	def cloneGraph2(self,node,map):
+		if(not map.has_key(node.label)):
+			map[node.label]=UndirectedGraphNode(node.label)
+			for i in range(len(node.neighbors)):
+				self.cloneGraph2(node.neighbors[i],map)
+				map[node.label].neighbors.append(map[node.neighbors[i].label])			
+		return map
 
-    # @param node, a undirected graph node
-    # @return a undirected graph node
-    def cloneGraph(self, node):
-        
+	# @param node, a undirected graph node
+	# @return a undirected graph node
+	def cloneGraph(self, node):
+		if(node == None):
+			return None
+		map=self.cloneGraph2(node,{})
+		return map[node.label]
 
 def test(got, expected):
-    if got == expected:
-        prefix = ' OK '
-    else:
-        prefix = '  X '
-    print '%s got: %s expected: %s' % (prefix, repr(got), repr(expected))
+	if got == expected:
+		prefix = ' OK '
+	else:
+		prefix = '  X '
+	print '%s got: %s expected: %s' % (prefix, repr(got), repr(expected))
 
 def main():
-    ins=Solution()
-    test(ins.maxProfit([1,2,3]),2)
-    test(ins.maxProfit([3,2,1]),0)
-    test(ins.maxProfit([1,4,2]),3)
+	node0=UndirectedGraphNode(0)
+	node1=UndirectedGraphNode(1)
+	node0.neighbors=[node1]
+	node1.neighbors=[node1]
+	result=node0.cloneGraph(node0)
+	print result.label
+	print result.neighbors[0].label
 
 
 if __name__ == '__main__':
