@@ -24,7 +24,7 @@ class Solution:
 			if(candidates[i]> target):
 				return
 			combin.append(candidates[i])
-			self.combinationSum1(candidates[i:],target-candidates[i],combin,result)
+			self.combinationSum1(candidates[i+1:],target-candidates[i],combin,result)
 			combin.pop()
 
     # @param candidates, a list of integers

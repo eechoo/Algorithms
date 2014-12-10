@@ -6,10 +6,26 @@ Compute and return the square root of x.
 '''
 
 class Solution:
-    # @param matrix, a list of lists of 1 length string
+    # @param x, an integer
     # @return an integer
-    def maximalRectangle(self, matrix):
-        
+    def sqrt(self, x):
+        if(x <= 0):
+            return 0
+        right=x/2
+        left=1
+        while(right - left > 1):
+            mid=(right+left)/2
+            sum=mid*mid
+            if(sum == x):
+                return mid
+            elif(sum > x):
+                right=mid
+            else:
+                left=mid
+        if(right*right <= x and right>left):
+            return right
+        else:
+            return left
 
 def test(got, expected):
     if got == expected:
@@ -20,9 +36,9 @@ def test(got, expected):
 
 def main():
     ins=Solution()
-    test(ins.maxProfit([1,2,3]),2)
-    test(ins.maxProfit([3,2,1]),0)
-    test(ins.maxProfit([1,4,2]),3)
+    test(ins.sqrt(1),1)
+    test(ins.sqrt(5),2)
+    test(ins.sqrt(6),2)
 
 
 if __name__ == '__main__':

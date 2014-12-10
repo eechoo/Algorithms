@@ -4,8 +4,292 @@
 		"selected_items":
 		[
 			[
+				"no",
+				"node4"
+			],
+			[
+				"la",
+				"largecur"
+			],
+			[
+				"sm",
+				"smallcur"
+			],
+			[
+				"lar",
+				"large"
+			],
+			[
+				"node",
+				"node3"
+			],
+			[
+				"sma",
+				"small"
+			],
+			[
+				"re",
+				"remove"
+			],
+			[
+				"pa",
+				"path"
+			],
+			[
+				"ex",
+				"exist"
+			],
+			[
+				"f",
+				"findall"
+			],
+			[
+				"st",
+				"start"
+			],
+			[
+				"li",
+				"list2"
+			],
+			[
+				"n",
+				"node4"
+			],
+			[
+				"ne",
+				"next"
+			],
+			[
+				"lis",
+				"list2"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"lo",
+				"longestValidParentheses"
+			],
+			[
+				"l",
+				"longestPalindrome"
+			],
+			[
+				"m",
+				"multiply"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"n-",
+				"n-layor-1"
+			],
+			[
+				"res",
+				"restoreIpAddresses"
+			],
+			[
+				"new",
+				"newInterval"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"in",
+				"intervals"
+			],
+			[
+				"a",
+				"append"
+			],
+			[
+				"ch",
+				"checkValid"
+			],
+			[
+				"so",
+				"solveSudoku"
+			],
+			[
+				"ma",
+				"matrix"
+			],
+			[
+				"h",
+				"heappush"
+			],
+			[
+				"Node",
+				"node3"
+			],
+			[
+				"word",
+				"wordBreak"
+			],
+			[
+				"s",
+				"strStr"
+			],
+			[
+				"F",
+				"flag"
+			],
+			[
+				"have",
+				"havenum"
+			],
+			[
+				"han",
+				"havenum2"
+			],
+			[
+				"false",
+				"False"
+			],
+			[
+				"true",
+				"True"
+			],
+			[
+				"is",
+				"isNumber"
+			],
+			[
+				"clo",
+				"cloneGraph"
+			],
+			[
+				"tw",
+				"twoSum"
+			],
+			[
+				"c",
+				"copyRandomList"
+			],
+			[
+				"R",
+				"RandomListNode"
+			],
+			[
+				"an",
+				"anag"
+			],
+			[
+				"bak",
+				"bak"
+			],
+			[
+				"co",
+				"combinationSum2"
+			],
+			[
+				"num",
+				"numDistinct"
+			],
+			[
+				"S",
+				"S"
+			],
+			[
+				"p",
+				"permute"
+			],
+			[
+				"min",
+				"minDistance"
+			],
+			[
+				"wor",
+				"word1"
+			],
+			[
+				"ca",
+				"canCompleteCircuit"
+			],
+			[
+				"sot",
+				"sortedEnd"
+			],
+			[
+				"sor",
+				"sortedEnd"
+			],
+			[
+				"pos",
+				"pospre"
+			],
+			[
+				"total",
+				"totalNQueens"
+			],
+			[
+				"tot",
+				"totalNQueens2"
+			],
+			[
+				"nde",
+				"node1"
+			],
+			[
+				"le",
+				"letterCombinations2"
+			],
+			[
+				"str",
+				"string"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"comb",
+				"combinationSum1"
+			],
+			[
+				"com",
+				"combin"
+			],
+			[
+				"mi",
+				"minimumTotal"
+			],
+			[
+				"tr",
+				"triangle"
+			],
+			[
+				"t",
+				"triangle"
+			],
+			[
+				"th",
+				"threeSum"
+			],
+			[
+				"ge",
+				"generateTrees"
+			],
+			[
+				"g",
+				"generateTrees2"
+			],
+			[
+				"su",
+				"subsetsWithDup"
+			],
+			[
+				"sub",
+				"subsets"
+			],
+			[
 				"T",
-				"true"
+				"TreeNode"
 			],
 			[
 				"C",
@@ -16,14 +300,6 @@
 				"hasPathSum"
 			],
 			[
-				"s",
-				"sortedListToBST1"
-			],
-			[
-				"sor",
-				"sortedListToBST"
-			],
-			[
 				"se",
 				"searchRange"
 			],
@@ -32,24 +308,12 @@
 				"begin"
 			],
 			[
-				"re",
-				"result"
-			],
-			[
 				"pat",
 				"pathSum1"
 			],
 			[
 				"long",
 				"longestCommonPrefix"
-			],
-			[
-				"r",
-				"right"
-			],
-			[
-				"lo",
-				"longestConsecutive"
 			],
 			[
 				"uni",
@@ -64,28 +328,8 @@
 				"x"
 			],
 			[
-				"min",
-				"minDepth"
-			],
-			[
-				"is",
-				"isalpha"
-			],
-			[
-				"l",
-				"lengthOfLastWord"
-			],
-			[
 				"de",
 				"delete"
-			],
-			[
-				"com",
-				"combine2"
-			],
-			[
-				"c",
-				"connect"
 			],
 			[
 				"row",
@@ -104,10 +348,6 @@
 				"removeDuplicates"
 			],
 			[
-				"t",
-				"target"
-			],
-			[
 				"minP",
 				"minPathGrid"
 			],
@@ -120,20 +360,8 @@
 				"grid"
 			],
 			[
-				"ma",
-				"maxArea"
-			],
-			[
 				"searc",
 				"searchMatrix"
-			],
-			[
-				"m",
-				"matrix"
-			],
-			[
-				"p",
-				"plusOne"
 			],
 			[
 				"u",
@@ -144,32 +372,8 @@
 				"prices"
 			],
 			[
-				"n",
-				"node11"
-			],
-			[
-				"no",
-				"node11"
-			],
-			[
-				"ge",
-				"generate"
-			],
-			[
-				"S",
-				"StringA"
-			],
-			[
 				"string",
 				"StringA"
-			],
-			[
-				"so",
-				"sortColors"
-			],
-			[
-				"g",
-				"grayCode"
 			],
 			[
 				"B",
@@ -188,35 +392,31 @@
 	"buffers":
 	[
 		{
-			"file": "LeetCode/N-Queens2.py",
+			"contents": "#!/usr/bin/python\n'''\nGiven a set of candidate numbers (C) and a target number (T), find all unique combinations in C where the candidate numbers sums to T.\n\nThe same repeated number may be chosen from C unlimited number of times.\n\nNote:\nAll numbers (including target) will be positive integers.\nElements in a combination (a1, a2, , ak) must be in non-descending order. (ie,  ).\nThe solution set must not contain duplicate combinations.\nFor example, given candidate set 2,3,6,7 and target 7, \nA solution set is: \n[7] \n[2, 2, 3] \n'''\nclass Solution:\n	def combinationSum1(self,candidates,target,combin,result):\n		if(target ==0):\n			result.append(combin[:])\n			return combin\n		for i in range(len(candidates)):\n			if(i>0 and candidates[i]==candidates[i-1]):\n				continue\n			if(candidates[i]> target):\n				return\n			combin.append(candidates[i])\n			self.combinationSum1(candidates[i:],target-candidates[i],combin,result)\n			combin.pop()\n\n    # @param candidates, a list of integers\n    # @param target, integer\n    # @return a list of lists of integers\n	def combinationSum(self, candidates, target):\n		if(candidates == []):\n			return [[]]\n		candidates.sort()\n		result=[]\n		combin=[]\n		self.combinationSum1(candidates,target,combin,result)\n		return result\n\n\ndef test(got, expected):\n    if got == expected:\n        prefix = ' OK '\n    else:\n        prefix = '  X '\n    print '%s got: %s expected: %s' % (prefix, repr(got), repr(expected))\n\ndef main():\n    ins=Solution()\n    test(ins.combinationSum([2,3,6,7],7),[])\n\n\nif __name__ == '__main__':\n    main()",
+			"file": "LeetCode/CombinationSum.py",
+			"file_size": 1550,
+			"file_write_time": 130578219050000000,
 			"settings":
 			{
-				"buffer_size": 660,
+				"buffer_size": 1548,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "LeetCode/BestTimetoBuyandSellStock3.py",
+			"file": "LeetCode/MergekSortedLists.py",
 			"settings":
 			{
-				"buffer_size": 803,
+				"buffer_size": 51381,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "LeetCode/Combinations.py",
+			"file": "/Users/echo/Documents/ACM/系统设计.txt",
 			"settings":
 			{
-				"buffer_size": 983,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "LeetCode/PathSum2.py",
-			"settings":
-			{
-				"buffer_size": 1248,
-				"line_ending": "Unix"
+				"buffer_size": 2750,
+				"line_ending": "Unix",
+				"name": "发信人: flamingos (flamingos), 信区: JobHunting"
 			}
 		}
 	],
@@ -268,18 +468,91 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Users/echo/Documents/Algorithms",
+		"/Users/echo/Documents/Algorithms/LeetCode"
+	],
 	"file_history":
 	[
+		"/Users/echo/Documents/Algorithms/LeetCode/MaximalRectangle.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/LargestRectangleinHistogram.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/LongestPalindromicSubstring.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/SortList.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/MultiplyStrings.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/WordSearch.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/WordLadder.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/ReorderList.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/LongestValidParentheses.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/SpiralMatrix.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/RestoreIPAddresses.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/InsertInterval.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/MergeIntervals.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/SudokuSolver.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/MergekSortedLists.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/MergeSortedArray.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/BestTimetoBuyandSellStock3.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/BestTimetoBuyandSellStock.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/PermutationSequence.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/LongestSubstringWithoutRepeatingCharacters.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/Sqrt(x).py",
+		"/Users/echo/Documents/Algorithms/LeetCode/WordBreak.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/ImplementstrStr().py",
+		"/Users/echo/Documents/Algorithms/LeetCode/RotateList.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/ScrambleString.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/RecoverBinarySearchTree.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/ValidNumber.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/CloneGraph.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/FirstMissingPositive.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/TwoSum.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/CopyListwithRandomPointer.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/ValidPalindrome.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/Anagrams.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/ZigZagConversion.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/NextPermutation.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/CombinationSum2.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/DistinctSubsequences.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/Permutations2.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/ReverseNodesink-Group.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/EditDistance.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/GasStation.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/JumpGame2.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/InsertionSortList.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/BinaryTreeZigzagLevelOrderTraversal.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/N-Queens2.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/ValidateBinarySearchTree.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/PalindromePartitioning.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/AddBinary.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/ReverseLinkedList2.py",
+		"/Library/Developer/CommandLineTools/usr/lib/c++/v1/memory",
+		"/Users/echo/Documents/Algorithms/LeetCode/pri.c",
+		"/Users/echo/Documents/Algorithms/LeetCode/per.cpp",
+		"/Users/echo/Documents/Algorithms/LeetCode/Pow-xn.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/LetterCombinationsofaPhoneNumber.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/ConstructBinaryTreefromPreorderandInorderTraversal.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/ConstructBinaryTreefromInorderandPostorderTraversal.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/CombinationSum.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/PartitionList.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/Triangle.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/4sum.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/3sum.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/3SumClosest.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/UniqueBinarySearchTrees2.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/Subsets.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/Subsets2.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/CountandSay.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/Combinations.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/ValidSudoku.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/PathSum2.py",
+		"/Users/echo/Documents/Algorithms/LeetCode/SumRoottoLeafNumbers.py",
 		"/Users/echo/Documents/Algorithms/LeetCode/JumpGame.py",
 		"/Users/echo/Documents/Algorithms/LeetCode/PathSum.py",
 		"/Users/echo/Documents/Algorithms/LeetCode/FlattenBinaryTreetoLinkedList.py",
-		"/Users/echo/Documents/Algorithms/LeetCode/Subsets.py",
 		"/Users/echo/Documents/Algorithms/LeetCode/ConvertSortedListtoBinarySearchTree.py",
 		"/Users/echo/Documents/Algorithms/LeetCode/SearchforaRange.py",
 		"/Users/echo/Documents/Algorithms/LeetCode/LongestCommonPrefix.py",
 		"/Users/echo/Documents/Algorithms/LeetCode/LongestConsecutiveSequence.py",
 		"/Users/echo/Documents/Algorithms/LeetCode/UniquePaths2.py",
-		"/Users/echo/Documents/Algorithms/LeetCode/SumRoottoLeafNumbers.py",
 		"/Users/echo/Documents/Algorithms/LeetCode/ValidParentheses.py",
 		"/Users/echo/Documents/Algorithms/LeetCode/TrappingRainWater.py",
 		"/Users/echo/Documents/Algorithms/LeetCode/PalindromeNumber.py",
@@ -296,7 +569,6 @@
 		"/Users/echo/Documents/Algorithms/LeetCode/SpiralMatrix2.py",
 		"/Users/echo/Documents/Algorithms/LeetCode/MinimumPathSum.py",
 		"/Users/echo/Documents/Algorithms/LeetCode/ContainerWithMostWater.py",
-		"/Users/echo/Documents/Algorithms/LeetCode/Permutations2.py",
 		"/Users/echo/Documents/untitled.sh",
 		"/Users/echo/Documents/Algorithms/LeetCode/Container With Most Water.py",
 		"/Users/echo/Documents/Algorithms/LeetCode/Searcha2DMatrix.py",
@@ -310,14 +582,11 @@
 		"/Users/echo/Documents/Algorithms/LeetCode/Permutations.py",
 		"/Users/echo/Documents/Algorithms/LeetCode/SingleNumber2.py",
 		"/Users/echo/Documents/Algorithms/LeetCode/BestTimetoBuyandSellStock2.py",
-		"/Users/echo/Documents/Algorithms/LeetCode/BestTimetoBuyandSellStock.py",
 		"/Users/echo/Documents/Algorithms/LeetCode/SymmetricTree.py",
 		"/Users/echo/Documents/Algorithms/LeetCode/GrayCode.py",
 		"/Users/echo/Documents/Algorithms/LeetCode/SortColors.py",
 		"/Users/echo/Documents/Algorithms/LeetCode/Pascal'sTriangle.py",
-		"/Users/echo/Documents/Algorithms/LeetCode/MergeSortedArray.py",
 		"/Users/echo/Documents/Algorithms/LeetCode/RemoveDuplicatesfromSortedArray.py",
-		"/Users/echo/Documents/Algorithms/LeetCode/N-Queens2.py",
 		"/Users/echo/Documents/Algorithms/LeetCode/RemoveElement.py",
 		"/Users/echo/Documents/Algorithms/LeetCode/SwapNodesinPairs.py",
 		"/Users/echo/Documents/Algorithms/LeetCode/range",
@@ -333,15 +602,7 @@
 		"/Users/echo/Documents/Algorithms/LeetCode/BinaryTreeInorderTraversal.py ",
 		"/Users/echo/Documents/Algorithms/Readme.md",
 		"/Users/echo/Documents/python/SearchInsertPosition",
-		"/Users/echo/Documents/python/UniqueBinarySearchTreesLib.py",
-		"/Users/echo/Documents/python/UniqueBinarySearchTrees.py",
-		"/Users/echo/Documents/python/Unique-Binary-Search-Trees-lib.py",
-		"/Users/echo/Documents/python/Unique-Binary-Search-Trees.py",
-		"/Volumes/C/Users/echo/Downloads/mymodule_demo.py",
-		"/Users/echo/Documents/python/class Solution:",
-		"/Users/echo/Library/Caches/TemporaryItems/Outlook Temp/hadoop-site-nj01-yulong[1].xml",
-		"/Library/Preferences/Parallels/licenses.xml",
-		"/Volumes/Untitled/Mac/SecureCRT 7.1.3/securecrt_linux_crack.pl"
+		"/Users/echo/Documents/python/UniqueBinarySearchTreesLib.py"
 	],
 	"find":
 	{
@@ -359,42 +620,134 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"generateParenthesis",
 			"    ",
 			"# ",
-			"generateParenthesis",
-			"# ",
-			"generateParenthesis",
-			"# ",
-			"generateParenthesis",
-			"# ",
-			"generateParenthesis",
-			"# ",
-			"generateParenthesis",
-			"data",
-			"generateParenthesis",
-			"# ",
-			"generateParenthesis",
-			"//",
-			"generateParenthesis",
+			"board[i]",
 			"    ",
-			"generateParenthesis",
-			"Write",
-			"generateParenthesis",
-			"click",
-			"levelOrderBottom",
+			"hash",
+			")\n",
+			"    ",
+			"result",
+			"    ",
+			"       ",
+			"      ",
+			"     ",
+			"    ",
 			"# ",
-			"generateParenthesis",
-			"got",
-			"generateParenthesis",
+			"left",
+			"length",
 			"maxProfit",
-			"generateParenthesis",
-			"grayCode",
-			"\n#",
-			"[1,3,5,6], 5",
-			"searchInsert",
-			"numTrees",
-			"ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAIEAux6Z6AE/xKbSbjDiV0WGP97rNgDT5Q7fDyFn5I6bQjiOofn/pWlIELXGzN0q6XYv2v2vYcd5F6Js3O/Bei5fakoGJshfVFkMniZnejfoXbZBxzh2TklJRNKno"
+			"	",
+			"        ",
+			"       ",
+			"      ",
+			"     ",
+			"    ",
+			"seq",
+			"\n    ",
+			"           ",
+			"          ",
+			"         ",
+			"        ",
+			"       ",
+			"      ",
+			"     ",
+			"    ",
+			"	",
+			"\n	",
+			"    ",
+			"# ",
+			".e",
+			".s",
+			"s",
+			"#",
+			"append",
+			"    ",
+			"        ",
+			"       ",
+			"      ",
+			"     ",
+			"    ",
+			"        ",
+			"       ",
+			"      ",
+			"     ",
+			"    ",
+			"solu[i][0]",
+			"solu[i][1]",
+			"solu[i][0]",
+			"solu",
+			"# ",
+			"lists",
+			"Lists",
+			"lists",
+			"Lists",
+			"list",
+			"List",
+			"list",
+			"dict1",
+			"dict",
+			"# ",
+			"    ",
+			"maxProfit",
+			"root",
+			"        ",
+			"       ",
+			"      ",
+			"     ",
+			"    ",
+			"        ",
+			"       ",
+			"      ",
+			"     ",
+			"    ",
+			"        ",
+			"       ",
+			"      ",
+			"     ",
+			"    ",
+			"cur",
+			"    ",
+			"        ",
+			"       ",
+			"      ",
+			"     ",
+			"    ",
+			"        ",
+			"       ",
+			"      ",
+			"     ",
+			"    ",
+			"            ",
+			"           ",
+			"          ",
+			"         ",
+			"        ",
+			"       ",
+			"      ",
+			"     ",
+			"    ",
+			"# ",
+			"anagrams",
+			"map",
+			"# ",
+			"        ",
+			"       ",
+			"      ",
+			"     ",
+			"    ",
+			"# ",
+			"maxProfit",
+			"tail",
+			"# ",
+			"    ",
+			"# ",
+			"    ",
+			"# ",
+			"postorder",
+			"        ",
+			"       ",
+			"      "
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -412,61 +765,29 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "LeetCode/N-Queens2.py",
+					"file": "LeetCode/CombinationSum.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 660,
+						"buffer_size": 1548,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								218,
-								218
+								687,
+								687
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "LeetCode/BestTimetoBuyandSellStock3.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 803,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								200,
-								200
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Python/Python.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -476,20 +797,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "LeetCode/Combinations.py",
-					"semi_transient": false,
+					"buffer": 1,
+					"file": "LeetCode/MergekSortedLists.py",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 983,
+						"buffer_size": 51381,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								113,
-								113
+								678,
+								678
 							]
 						],
 						"settings":
@@ -498,41 +819,40 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
+						"translation.x": 12.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "LeetCode/PathSum2.py",
+					"buffer": 2,
+					"file": "/Users/echo/Documents/ACM/系统设计.txt",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1248,
+						"buffer_size": 2750,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								354,
-								354
+								1592,
+								1592
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"auto_name": "发信人: flamingos (flamingos), 信区: JobHunting",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 591.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -571,7 +891,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 171.0
+		"height": 125.0
 	},
 	"output.find_results":
 	{
@@ -611,6 +931,7 @@
 		],
 		"width": 0.0
 	},
+	"selected_group": 0,
 	"settings":
 	{
 	},
@@ -618,7 +939,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 266.0,
+	"side_bar_width": 327.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
